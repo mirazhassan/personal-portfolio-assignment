@@ -1,6 +1,29 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+ul{
+    float: right;
+    margin-right: 70px;
+    padding: 0;
+}
+ul li{
+    display: inline-block;
+    list-style-type: none;
+    font-size: 25px;
+}
+ul li a{
+    color: purple;
+    text-decoration: none;
+    padding: 20px 10px;
+    display: inline-block;
+}
+.introduction-area{
+    clear: both;
+    margin-top: 1%;
+    margin-left: 6%;
+    height:100px ;
+    padding-bottom: 50px;
+}
 h1{
     font-size: 50px;
 }
@@ -14,7 +37,7 @@ h1{
     width: 40%;
     float: left;
     margin-left: 5%;
-    padding-left: 2%;
+    padding-left:3%;
     
 }
 .half-width img{
@@ -48,23 +71,98 @@ h2{
     font-size: 50px;
     color: purple;
 }
-.project-area{
-    background-color: seashell;
-   
-}
+
 .text-color{
     color: orange;
+   
 }
 h4{
     text-align: center;
     font-size: 50px;
     color: purple;
-    padding-top: 60px;
 }
-.three-project{
-    width: 15%;
-    padding-left: 2%;
-    margin-left: 5px;
-   
+h5{
+    color: purple;
+    font-size: 20px;
+}
+.letest-project-area{
+    background-color: seashell;
+    width: 100%;
+    padding-top: 3px;
+   }
+.project-img{
+    width: 85%;
+
+    
+}
+.single-project{
+    width: 25%;
+    height: 80%;
+    float: left;
+    box-shadow: 10px 10px 40px gray;
+    padding: 15px;
+    border-radius: 15px;
+    margin-left: 5%;
+}
+.footer-area{
+    margin-top: 7%;
 
 }
+.footer-img{
+    width: 60%;
+    margin: 5% 20%;
+    
+   
+}
+.text-align{
+    font-size: 50px;
+    color: white;
+    float: left;
+    margin: 30px;
+    padding: 25px;
+    }
+
+.footer-image-1{
+    background-image: url(images/footer\ image.png);
+    height: 230px;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 50px;
+    }
+
+    .lets-chat{
+        display: inline;
+        float: left;
+        padding-top: 30px;
+
+    }
+    .last-part{
+       padding: 110px 30px;
+       margin-left: 550px;
+    }
+    .social-media-image{
+        margin-top: 80px;
+       
+    }
+    
+    #stay-conncet{
+        text-align: center;
+        font-size: 30px;
+        color: tomato;
+        
+    }
+
+    .contact-sm{
+        text-align: center;
+        
+    }
+    .end-section{
+        text-align: center;
+        margin-top: 5%;
+        height: 1px;
+
+    }
+    footer p{
+        font-size: 12px;
+    }
+   
